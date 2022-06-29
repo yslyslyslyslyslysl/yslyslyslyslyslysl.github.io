@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PIG-HUNT</title>
+        <script src="scripts.js"></script>
+        <link rel="stylesheet" href="styles.css"> 
+        <style>
+            html {
+                background: url(forest.png) no-repeat center fixed;
+                background-size: cover; 
+                }
+        </style>
+        <h1 id="score">Pigs hunted: 0</h1>
+    </head>
+
+    <body>
+        <form id="form1">
+            <label for="fname">enter here: </label>
+            <input type="text" id="txt" name="fname"></label>
+            <button type="submit" id="sbmt" >Search</button>
+        </form>
+        <button id="pig" class="pig" onclick="update_score()"></button>  
+    </body>
+</html>
